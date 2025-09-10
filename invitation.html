@@ -7,6 +7,10 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="invitation.html">Invitation</a></li>
+  </ul>
   <h1>Create Your Invitation</h1>
   <form id="invitation-form" action="#">
     <label for="recipient-input">Recipient Name:</label>
@@ -18,7 +22,7 @@
     <input type="submit" value="Generate Invitation">
   </form>
 
-  <div id="output" style="margin-top:20px;">
+    <div id="output" style="margin-top:20px;">
     <p>Dear <span id="recipient-placeholder">[Recipient]</span>,</p>
     <p>You are invited to the event hosted by <span id="host-placeholder">[Host]</span>.</p>
   </div>
